@@ -50,6 +50,13 @@ add_action('after_setup_theme', function () {
      */
     add_theme_support('post-thumbnails');
 
+    $args = array(
+        'width'         => 960,
+        'height'        => 320,
+        'uploads'       => true,
+    );
+    add_theme_support( 'custom-header', $args );
+
     /**
      * Enable HTML5 markup support
      * @link https://developer.wordpress.org/reference/functions/add_theme_support/#html5
