@@ -1,4 +1,7 @@
-# Docker Development environment for Wordpress based webpage
+# Development environment for petersennordic.se
+Not a mirror of the live version, no passwords can be found here :)
+
+## Docker Development environment for Wordpress based webpage
 Note that this is ment to be used as a development environment only, there are poor
 cleartext passwords definded in various files that should be changed and preferably
 stored in environment variables that makes this unfit for a production environment.
